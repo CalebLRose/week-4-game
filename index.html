@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Space Crystal</title>
+	<title>Crystal Canyon</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -10,32 +10,26 @@
 
 </head>
 <body>
-
-	<h1 id="title">Crystal Collector</h1>
-
-	<div id="instructions">
-		<p>You will be given a random number at the start of the game.</p>
-		<br>
-		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-		<br>
-		<p>You win the game by matching your total score to the random number.</p>
-		<br>
-		<p>The value of each crystal is hidden from you until you click on it.</p>
-		<br>
-		<p>Each time the game starts, the values of each crystal change.</p>
+	<div id="heading">
+		<h1 id="title">Crystal Collector</h1>
 	</div>
 
-	<div id="randNum">
-		
-	</div>
+	<div id="game">
+		<div class="gamePlay" id="randNum">
+			<p>Number To Match:</p>
+			<p class="nums" id="goal">0</p>
+		</div>
 
-	<div id="guess">
-		
-	</div>
+		<div class="gamePlay" id="yourGuess">
+			<p>Current Total:</p>
+			<p class="nums" id="guess">0</p>
+			
+		</div>
 
-	<div id="scoreboard">
-		<h2>Wins: 0</h2>
-		<h2>Losses: 0</h2>
+		<div id="scoreboard">
+			<h2 class="score" id="win">Wins: 0</h2>
+			<h2 class="score" id="loss">Losses: 0</h2>
+		</div>
 	</div>
 
 	<div id="play">
@@ -43,6 +37,22 @@
 		<img class="gems" id="blue" src="assets/images/blueGem.png">
 		<img class="gems" id="green" src="assets/images/greenGem.png">
 		<img class="gems" id="purp" src="assets/images/purpGem.png">
+	</div>
+
+	<div id="instBox">
+		<div id="instructions">
+			<h2>Instructions</h2>
+			<br>
+			<p>You will be given a random number at the start of the game.</p>
+			<br>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<br>
+			<p>You win the game by matching your total score to the random number.</p>
+			<br>
+			<p>The value of each crystal is hidden from you until you click on it.</p>
+			<br>
+			<p>Each time the game starts, the values of each crystal change.</p>
+		</div>
 	</div>
 
 </body>

@@ -9,34 +9,79 @@
 }
 
 body{
-	background: navy;
+	background: url(../images/bground.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	font-family: Atari Classic;
-	color: #fff;
+	color: #000;
+}
+
+#heading {
+	margin: 30px 200px;
 }
 
 #title {
 	text-align: center;
 	font-size: 36px;
 	word-spacing: -5px;
-	margin: 30px 200px;
 }
 
-#instructions{
-	width: 450px;
-	text-align: center;
-	font-size: 12px;
-	word-spacing: -5px;
-	line-height: 18px;
-	margin: 60px 350px;
+#game {
+	margin: 50px 275px;
+    height: 80px;
 }
+
+.gamePlay {
+	display: inline-block;
+}
+
+#yourGuess {
+	padding-left: 30px;
+}
+
+.nums {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.score {
+	display: inline-block;
+}
+
+#scoreboard {
+	margin: 50px 0px 0px 115px;
+
+}
+
+#loss {
+	padding-left: 50px
+}
+
 #play{
-	/*position: fixed;*/
-	/*bottom: 0;*/
-	/*left: 240px;*/
 	width: 700px;
-	margin: 30px 200px;
+	margin: 0px 220px;
 }
 
 .gems{
-	padding: 25px;
+	padding: 25px 25px 10px
+}
+
+#instBox{
+	background: rgba(24, 73, 114, 0.7);
+	width: 550px;
+	height: 325px;
+	margin: 10px 270px;
+}
+
+#instructions{
+	color: #fff;
+	width: 500px;
+	text-align: center;
+	font-size: 14px;
+	word-spacing: -5px;
+	line-height: 16px;
+	padding: 20px 25px;
 }
