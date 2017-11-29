@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space Crystal</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" href="assets/js/game.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<h1 id="title">Crystal Collector</h1>
+
+	<div id="instructions">
+		<p>You will be given a random number at the start of the game.</p>
+		<br>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<br>
+		<p>You win the game by matching your total score to the random number.</p>
+		<br>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<br>
+		<p>Each time the game starts, the values of each crystal change.</p>
+	</div>
+
+	<div id="randNum">
+		
+	</div>
+
+	<div id="guess">
+		
+	</div>
+
+	<div id="scoreboard">
+		<h2>Wins: 0</h2>
+		<h2>Losses: 0</h2>
+	</div>
+
+	<div id="play">
+		<img class="gems" id="red" src="assets/images/redGem.png">
+		<img class="gems" id="blue" src="assets/images/blueGem.png">
+		<img class="gems" id="green" src="assets/images/greenGem.png">
+		<img class="gems" id="purp" src="assets/images/purpGem.png">
+	</div>
+
+</body>
+</html>
