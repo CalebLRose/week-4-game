@@ -7,6 +7,7 @@ $(document).ready(function(){
 	var myNum = [];
 	// var guess;
 	// var sum = total.reduce();
+	
 
 	function clear(){
 		myNum.length = 0;
